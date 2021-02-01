@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Test</title>
+</head>
+<body>
+    <header class="row">
+        <h1 class="col-10">Header</h1>
+        <div class="col-2 row">
+            <i class="col fab fa-angellist"></i>
+            <i class="col fab fa-html5"></i>
+            <i class="col fab fa-css3"></i>
+            <i class="col fab fa-js-square"></i>
+        </div>
+    </header>
+
+
+    <main class="container-fluid">
+        <div class="row">
+            
+            <aside class="col-2">
+                <p>aside</p>
+            </aside>
+
+            <section class="col-8 row">
+                <!-- <div class="container"> -->
+                    <article class="bg-success col-12 row">
+                        <button class="col" type="button" data-toggle="collapse" data-target="#collapseTest" aria-expanded="false" aria-controls="collapseTest">click me</button>
+                        <div class="collapse row" id="collapseTest">                        
+                            <p class="col imageContainer"><img src="" alt=""></p>
+                            <p class="col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quo quisquam deleniti mollitia distinctio cumque nam voluptate eum nostrum dicta blanditiis, repudiandae voluptates, non temporibus laudantium quam! Expedita, provident. Totam?</p>
+                            <p class="col imageContainer"><img src="" alt=""></p>
+                        </div>
+                        </article>
+                    <article class="bg-success col-12 row">
+                        <p class="col imageContainer"><img src="" alt=""></p>
+                        <p class="col imageContainer"><img src="" alt=""></p>
+                        <p class="col imageContainer"><img src="" alt=""></p>
+                        <p class="col imageContainer"><img src="" alt=""></p>
+                        <p class="col imageContainer"><img src="" alt=""></p>
+                    </article>
+                    <article class="bg-success col-12 row">
+                        <p class="col imageContainer"><img src="" alt=""></p>
+                        <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, minus fugiat accusamus quibusdam deleniti molestiae rerum dolorem quidem numquam? Distinctio ab nobis perferendis similique reprehenderit inventore error voluptates! Officia, voluptatum.</p>
+                        <ul class="col liste">
+                            <li>liste 1</li>
+                            <li>liste 2</li>
+                            <li>liste 3</li>
+                            <li>liste 4</li>
+                            <li>liste 5</li>
+                        </ul>
+                    </article>
+                <!-- </div> -->
+            </section>
+
+            <aside class="col-2 alert-danger">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nom">Nom</label><br />
+                        <div class="input-group">
+                            <input type="text" class="nom form-control form-control-sm" id="nom">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fab fa-angellist"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom</label><br />
+                        <input type="text" class="prenom form-control form-control-sm" id="prenom">
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">Mot de pass</label><br />
+                        <input type="password" class="pass form-control form-control-sm" id="pass">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

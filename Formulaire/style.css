@@ -1,0 +1,45 @@
+/*TITRE*/
+h1{
+    text-align: center;
+}
+
+/*FORMULAIRE*/
+#nom:focus, #prenom:focus, #pass:focus, #mail:focus{
+	background-color: black;
+	color: white;
+	transition-duration: 0.5s;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.formuPart:hover{
+	background-color: darkgrey;
+	transition-duration: 0.5s;
+}
+
+p{
+    text-align: center;
+}
+
+.centreInteret{
+	margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+	margin: 10px;
+}
+
+.note{
+	text-align: center;
+}
+
+#note{
+	width: 50%;
+}
+
+.submit{
+	display: flex;
+	justify-content: space-around;
+}

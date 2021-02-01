@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <p>
+        Vous êtes:
+        <input type="radio" name="genre" value="homme" id="homme" />
+        <label for="homme">un homme</label>
+        <input type="radio" name="genre" value="femme" id="femme" />
+        <label for="femme">une femme</label>
+        <br />
+        <label for="nom">Nom : </label>
+        <input type="text" name="nom" id="nom" required />
+        <br />
+        <label for="prenom">Prenom : </label>
+        <input type="text" name="prenom" id="prenom" required />
+        <br />
+        <label for="pays">Pays : </label>
+        <select name="pays" id="pays" required >
+          <option value="france" selected>France</option>
+          <option value="espagne">Espagne</option>
+          <option value="italie">Italie</option>
+          <option value="royaume-uni">Royaume-Uni</option>
+          <option value="belgique">Belgique</option>
+        </select>
+        <br />
+        <label for="email">email : </label>
+        <input type="email" name="email" id="email" />
+      </p>
+      <p>
+        <label for="info">Comment connaissez vous ce site ?</label>
+        <br />
+        <textarea name="info" id="info" rows="10" cols="50"></textarea>
+      </p>
+      <p><input type="submit" value="envoyer"><a href="index.html">annuler</a></p>
+      
+    </form>
+  </body>
+</html>

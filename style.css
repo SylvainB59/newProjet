@@ -1,0 +1,70 @@
+/* body {
+  background-color: lightgrey;
+}
+
+p {
+    border: solid green;
+} */
+
+/* .info {
+    display: flex;
+  justify-content: space-around;
+}
+
+.corp {
+    display: flex;
+} */
+
+.image1 {
+  width: 50%;
+}
+
+#tableau {
+  text-align: center;
+  color: aqua;
+  border: solid red;
+  background-color: black;
+  padding: 10%;
+}
+
+/* .info,
+.intro {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;   
+}
+*/
+
+.info p {
+  border: 1px solid red;
+}
+
+/* table {
+  margin-left: 25%;
+}
+table,
+td {
+    border: 1px solid white;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+} */
+
+table {
+  background: chartreuse;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+thead {
+  background: chocolate;
+}
+
+tbody {
+  background: cornflowerblue;
+}

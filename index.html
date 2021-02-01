@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Index</title>
+  </head>
+  <body>
+    <header>
+      <h1>Apprenez à créer votre site web avec HTML5 ert CSS3</h1>
+      <div class="info">
+        <p>20 heures</p>
+        <p>Facile</p>
+        <p>licence</p>
+      </div>
+    </header>
+    <div>
+        <form action="traitement.php" method="POST">
+            <p>
+                <label for="pseudo">Votre pseudo : </label>
+                <input type="text" name="pseudo" id="pseudo" />
+            <br />
+                <label for="password">Votre mot de passe : </label>
+                <input type="password" name="password" id="password" />
+            </p>
+        </form>
+        <p>ou <a href="inscription.html">inscrivez vous</a></p>
+    </div>
+    <div class="corp">
+      <nav>
+        <p>Mettez en page votre site</p>
+        <ul>
+          <li>Structurez votre page</li>
+          <li>Découvrez le modèle des boîtes</li>
+          <li>Faites votre mise en page avec Flexbox</li>
+          <li>Pratiquez!</li>
+        </ul>
+      </nav>
+      <section>
+        <div>
+          <h2>Structurez votre page</h2>
+          <div>
+            <p>
+              Nous approchons de plus en plus du but. Si nos pages web ne
+              ressemblent pas encore tout à fait aux sites web que nous
+              connaissons, c'est qu'il nous manque les connaissances nécessaires
+              pour faire la mise en page.
+            </p>
+            <p>
+              En général, une page web est constituée d'un en-tête (tout en
+              haut), de menus de navigation (en haut ou sur les côtés), de
+              différentes sections au centre… et d'un pied de page (tout en
+              bas).
+            </p>
+            <p>
+              Dans ce chapitre, nous allons nous intéresser aux nouvelles
+              balises HTML dédiées à la structuration du site. Ces balises ont
+              été introduites par HTML5 (elles n'existaient pas avant) et vont
+              nous permettre de dire : « Ceci est mon en-tête », « Ceci est mon
+              menu de navigation », etc.
+            </p>
+            <p>
+              Pour le moment, nous n'allons pas encore faire de mise en page.
+              Nous allons en fait préparer notre document HTML pour pouvoir
+              découvrir la mise en page dans les prochains chapitres.
+            </p>
+            <aside>
+              <p>
+                Pour valider vos compétences avec un diplôme bac+2, suivez la
+                formation Développeur web avec OpenClassrooms. 6 mois en moyenne
+                sont nécessaires pour finaliser cette formation à distance, qui
+                peut aussi être suivie en alternance ou contrat d’apprentissage.
+              </p>
+            </aside>
+          </div>
+        </div>
+        <article>
+          <h3>les balises structurantes de HTML5</h3>
+          <p>
+            Je vais vous présenter ici les nouvelles balises introduites par
+            HTML5 pour structurer nos pages. Vous allez voir, cela ne va pas
+            beaucoup changer l'apparence de notre site pour le moment, mais il
+            sera bien construit et prêt à être mis en forme ensuite !
+          </p>
+          <p>
+            La plupart des sites web possèdent en général un en-tête, appelé
+            header en anglais. On y trouve le plus souvent un logo, une
+            bannière, le slogan de votre site…
+          </p>
+          <code>
+            <ul>
+              <li>&lt;header&gt;</li>
+              <li>&lt;!-- commentaire --&gt;</li>
+              <li>&lt;/header&gt;</li>
+            </ul>
+          </code>
+        </article>
+      </section>
+    </div>
+
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">The table header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <table>
+        <caption>Noms et valeurs des couleurs</caption>
+        <tbody>
+          <tr>
+            <th scope="col">Nom</th>
+            <th scope="col">Hexadécimal</th>
+            <th scope="col">HSLa</th>
+            <th scope="col">RGBa</th>
+          </tr>
+          <tr>
+            <th scope="row">Turquoise</th>
+            <td><code>#51F6F6</code></td>
+            <td><code>hsla(180, 90%, 64%, 1)</code></td>
+            <td><code>rgba(81, 246, 246, 1)</code></td>
+          </tr>
+          <tr>
+            <th scope="row">Ocre</th>
+            <td><code>#F6BC57</code></td>
+            <td><code>hsla(38, 90%, 65%, 1)</code></td>
+            <td><code>rgba(246, 188, 87, 1)</code></td>
+          </tr>
+        </tbody>
+      </table>      
+    </div>
+
+    <div id="tableau">
+      <p><img src="images/image1.png" alt="une image" class="image1"></p>
+      <p>blabla blabla blabla blabla blabla blabla blabla blabla <br />blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla </p>
+      <br />
+      <table>
+        <caption>un tableau à 4 colones</caption>
+        <thead>
+          <tr>
+            <th scope="col">un</th>
+            <th scope="col">deux</th>
+            <th scope="col">trois</th>
+            <th scope="col">quatre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ligne 1 case 1</td>
+            <td>ligne 1 case 2</td>
+            <td>ligne 1 case 3</td>
+            <td>ligne 1 case 4</td>
+          </tr>
+          <tr>
+            <td>ligne 2 case 1</td>
+            <td>ligne 2 case 2</td>
+            <td>ligne 2 case 3</td>
+            <td>ligne 2 case 4</td>
+          </tr>
+          <tr>
+            <td>ligne 3 case 1</td>
+            <td>ligne 3 case 2</td>
+            <td>ligne 3 case 3</td>
+            <td>ligne 3 case 4</td>
+          </tr>
+          <tr>
+            <td>ligne 4 case 1</td>
+            <td>ligne 4 case 2</td>
+            <td>ligne 4 case 3</td>
+            <td>ligne 4 case 4</td>
+          </tr>
+          <tr>
+            <td>ligne 5 case 1</td>
+            <td>ligne 5 case 2</td>
+            <td>ligne 5 case 3</td>
+            <td>ligne 5 case 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="autre/autre.html">autre!!!</a>
+    <a href="formulaire.html">formulaire!!!</a>
+  </body>
+</html>
