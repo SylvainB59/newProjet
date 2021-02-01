@@ -12,3 +12,5 @@ plik.root.gg <!-- envoyer des fichiers -->
 - ajout du serveur distant -> git remote add origin git@github.com:SylvainB59/newProjet.git
 
 - attribuer un nom a la version -> git commit -m "ajout des fichiers"
+
+-uploader les changements -> git push
