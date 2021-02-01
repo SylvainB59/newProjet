@@ -1,6 +1,8 @@
 plik.root.gg <!-- envoyer des fichiers -->
 
 **Git/gitHub**
+
+--- premier lancement ---
 - dans le dossier voulu: clic droit -> git bash here
     - sur gtihub, créer un nouveau repositori
     - dans le bash -> git init
@@ -13,4 +15,10 @@ plik.root.gg <!-- envoyer des fichiers -->
 
 - attribuer un nom a la version -> git commit -m "ajout des fichiers"
 
--uploader les changements -> git push
+- uploader les changements -> git push
+
+--- en général ---
+git add .
+(git status)
+git commit -m "text"
+git pushgit
