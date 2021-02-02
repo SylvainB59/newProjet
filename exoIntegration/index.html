@@ -9,63 +9,73 @@
 	<title>Exo Integration</title>
 </head>
 <body>
-	<header>
-		<div class="container d-flex justify-content-between">
-			<div class="d-flex">
-				<h1 class="bolder text-primary">Business</h1>
-				<div>
-					<p>FREE</p>
-					<p>Company</p> 
-				</div>
+	<header id="top">
+		<div class="container d-flex justify-content-between align-items-center">
+			<div>
+				<a href="#" class="d-flex align-items-center text-decoration-none">
+					<h1 class="font-weight-bolder big c-main display-4">Business</h1>
+					<div class="d-flex flex-column justify-content-around pl-3 text-dark">
+						<p class="d-inline free small font-weight-bold my-2 p-2">FREE</p>
+						<p>Company</p> 
+					</div>
+				</a>
 			</div>
-			<div class="text-right">
-				<p><i class="fas fa-phone"></i>800-2345-6789</p>
+			<div class="text-right py-4">
+				<p class="tel mb-0"><i class="fas fa-phone"></i>800-2345-6789</p>
 				<p>Call us now to get free business consultation from our experts!</p>
 			</div>
 		</div>
 		<nav class="navbar navbar-expand-md bg-dark p-0 font-weight-bold">
 			<div class="container">
-
-				<ul class="navbar-nav menu">
-					<li class="nav-item">
-						<a class="nav-link text-white m-2" href="#">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-white m-2" href="#">ABOUT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-white m-2" href="#">TYPOGRAPHY</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-white m-2" href="#">CONTACTS</a>
-					</li>
-				</ul>
+				<!-- <div class="row col"> -->
+					<ul class="navbar-nav menu w-100">
+						<li class="nav-item">
+							<a class="nav-link text-white m-2" href="#">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white m-2" href="#">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white m-2" href="#">TYPOGRAPHY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white m-2" href="#">CONTACTS</a>
+						</li>
+					</ul>
+				<!-- </div> -->
 			</div>
 		</nav>
-		<div class="pubstick container-fluid p-1 fixed-top text-light bg-pub"><!-- class fixed-top -->
-			<div class="row d-flex justify-content-center">
-				<p class="m-0 p-2">Get Full-Featured INTENSE Template!</p>
+		<div class="pubstick container-fluid p-1 fixed-top text-white bg-pub"><!-- class fixed-top -->
+			<div class="row">
+				<p class="p-2 m-auto font-weight-bold">Get Full-Featured INTENSE Template!</p>
 				<nav class="navbar navbar-expand-md">
 					<ul class="navbar-nav">
-						<li>500+ HYML Files</li>
-						<li>29 Niche Templates</li>
-						<li>1000+ UI Elements</li>
-						<li>Novi Page Builder</li>
+						<li class="mx-1">500+ HYML Files</li>
+						<li class="mx-1 bar">|</li>
+						<li class="mx-1">29 Niche Templates</li>
+						<li class="mx-1 bar">|</li>
+						<li class="mx-1">1000+ UI Elements</li>
+						<li class="mx-1 bar">|</li>
+						<li class="mx-1">Novi Page Builder</li>
 					</ul>
 				</nav>
-				<button type="button" class="btn btn-success">SHOP NOW!</button>
+				<button type="button" class="btn btn-success m-auto">SHOP NOW!</button>
 			</div>
 		</div>
 	</header>
 
+	<aside>
+		<a href="#top" class="position-fixed bg-main text-white top"><i class="fas fa-chevron-up m-2"></i></a>
+	</aside>
+
 	<main>
 		<!-- caroussel -->
-		<div id="galerie" class="carousel slide mt-2 bg-light" data-ride="carousel">
-			<ul class="carousel-indicators pb-5">
+		<div id="galerie" class="carousel slide mt-2" data-ride="carousel">
+			<!-- <ul class="carousel-indicators pb-5">
 				<li data-target="#galerie" data-slide-to="0" class="active"></li>
 				<li data-target="#galerie" data-slide-to="1"></li>
 				<li data-target="#galerie" data-slide-to="2"></li>
-			</ul>
+			</ul> -->
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="image1.jpg" alt="" class="d-block w-75 m-auto">
@@ -133,42 +143,42 @@
 		<!-- 4 article -->
 		<section class="container infoPlus">
 			<div class="row">
-				<article class="col-md-6 row">
+				<article class="col-md-6 d-flex">
 					<div class="col-md-3">
 						<i class="fas fa-globe-europe text-white p-4 bg-main"></i>
 					</div>
 					<div class="col-md-9">
 						<h3>Titre</h3>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati autem dolores tempore animi nesciunt accusantium est rem soluta in, esse, quibusdam sequi eos ducimus minima magni ad, odit totam veritatis!</p>
+						<p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati autem dolores tempore</p>
 					</div>
 				</article>
-				<article class="col-md-6 row">
+				<article class="col-md-6 d-flex">
 					<div class="col-md-3">
 						<i class="fas fa-globe-europe text-white p-4 bg-main"></i>
 					</div>
 					<div class="col-md-9">
 						<h3>Titre</h3>
-						<p>Incidunt pariatur neque qui doloribus, quasi minus, soluta quo harum doloremque aliquid earum excepturi unde aut ad esse porro repellat nisi, quaerat laudantium blanditiis perferendis itaque atque tenetur ut cumque.</p>
+						<p class="text-secondary">Incidunt pariatur neque qui doloribus, quasi minus, soluta quo harum doloremque aliquid </p>
 					</div>
 				</article>
 				<hr>
 				<hr>
-				<article class="col-md-6 row">
+				<article class="col-md-6 d-flex">
 					<div class="col-md-3">
 						<i class="fas fa-globe-europe text-white p-4 bg-main"></i>
 					</div>
 					<div class="col-md-9">
 						<h3>Titre</h3>
-						<p>Temporibus maxime incidunt, veritatis impedit cupiditate vero doloribus pariatur error nobis aliquid nostrum. Et voluptate vel tempore illum omnis voluptatum possimus quasi libero, sint necessitatibus, odit, ipsum inventore delectus, suscipit!</p>
+						<p class="text-secondary">Temporibus maxime incidunt, veritatis impedit cupiditate vero doloribus pariatur error </p>
 					</div>
 				</article>
-				<article class="col-md-6 row">
+				<article class="col-md-6 d-flex">
 					<div class="col-md-3">
 						<i class="fas fa-globe-europe text-white p-4 bg-main"></i>
 					</div>
 					<div class="col-md-9">
 						<h3>Titre</h3>
-						<p>Qui doloremque laborum deserunt illum minima accusamus nihil dolor fuga libero laudantium quasi ducimus aspernatur voluptatum in, porro nisi at, error quas odio obcaecati impedit, iure. Nesciunt praesentium animi, consequuntur.</p>
+						<p class="text-secondary">Qui doloremque laborum deserunt illum minima accusamus nihil dolor fuga libero laudantium </p>
 					</div>
 				</article>
 			</div>
@@ -218,29 +228,33 @@
 					<div>
 						<div id="galerie" class="carousel slide mt-2 bg-light" data-ride="carousel">
 							<ul class="carousel-indicators c-main">
-								<li data-target="#galerie" data-slide-to="0" class="active"></li>
-								<li data-target="#galerie" data-slide-to="1"></li>
-								<li data-target="#galerie" data-slide-to="2"></li>
+								<li data-target="#galerie" data-slide-to="0" class="active p-0"></li>
+								<!-- <li data-target="#galerie" data-slide-to="1"></li>
+								<li data-target="#galerie" data-slide-to="2"></li> -->
 							</ul>
 							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="image1.jpg" alt="" class="d-block w-75 m-auto">
+								<div class="carousel-item active border">
+									<div class="row">
+										<img src="image1.jpg" alt="" class="col-4 border h-100 mx-auto">
+										<p class="col-7 small border"><i></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore soluta quibusdam quis aspernatur rerum enim omnis quam!</p>
+									</div>
+									<!-- <img src="image1.jpg" alt="" class="d-block w-75 m-auto">
 									<div class="carousel-caption text-left text-success w75 ccText">
 										<h2>Helping with any of your business needs!</h2>
-									</div>
+									</div> -->
 								</div>
-								<div class="carousel-item">
-									<img src="image1.jpg" alt="" class="d-block w-75 m-auto">
+								<!-- <div class="carousel-item"> -->
+									<!-- <img src="image1.jpg" alt="" class="d-block w-75 m-auto">
 									<div class="carousel-caption text-left text-warning w75 ccText">
 										<h2>Helping with any of your business needs! BIS</h2>
-									</div>
-								</div>
-								<div class="carousel-item">
-									<img src="image1.jpg" alt="" class="d-block w-75 m-auto">
+									</div> -->
+								<!-- </div> -->
+								<!-- <div class="carousel-item"> -->
+									<!-- <img src="image1.jpg" alt="" class="d-block w-75 m-auto">
 									<div class="carousel-caption text-left text-danger w75 ccText">
 										<h2>Helping with any of your business needs! BIS BIS</h2>
-									</div>
-								</div>
+									</div> -->
+								<!-- </div> -->
 							</div>
 							<!-- <a class="carousel-control-prev" href="#galerie" role="button" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -293,8 +307,8 @@
 			</div>
 		</section>
 	</footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> -->
 </body>
 </html>
