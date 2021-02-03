@@ -1,5 +1,5 @@
 .bg-main{
-	background-color: #62bfe6;
+	background-color: #62bfe6 !important;
 }
 
 .bg-pub{
@@ -26,6 +26,11 @@ header{
 .free{
 	background-color: #f6f466;
 	width: max-content;
+	font-size: 0.7rem;
+}
+
+.free+p{
+	font-size: 1.25rem;
 }
 
 .tel{
@@ -33,10 +38,15 @@ header{
 }
 
 .tel i{
-	font-size: 1.3em;
+	font-size: 1.1em;
 	transform: scaleX(-1);
 	color: #62bfe6;
 	margin-right: 30px;
+	bottom: 0.3rem;
+}
+
+.tel+p{
+	letter-spacing: -0.05rem;
 }
 
 .menu li:hover{
@@ -44,7 +54,7 @@ header{
 }
 
 .pubstick{
-	max-height: 50px;
+	max-height: auto;
 }
 
 /* .pubstick p{
@@ -73,11 +83,11 @@ header{
 	bottom: 50%;
 }
 
-.carousel-control-prev-icon{
+#galerie.carousel-control-prev-icon{
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2362bfe6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
-.carousel-control-next-icon{
+#galerie.carousel-control-next-icon{
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2362bfe6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 	/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2362bfe6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important; */
 }
@@ -105,17 +115,74 @@ header{
 	height: 2px;
 }
 
+.boutonAbout{
+	bottom: 10px;
+}
+.services li{
+	padding: 0.7rem 3rem;
+}
+
+.services i{
+	font-size: 1.25rem;
+	left: -.5em;
+}
+
 .help .card-header, .help .card-body, .help .card-footer{
 	border-color: white;
 }
-footer{
+.avis{
+	background-color: #f5f5f5;
+}
+#galerieBis{
+	min-height: 130px;
+}
+
+.avisImg{
+	align-self: flex-start;
+}
+
+#galerieBis img{
+	width: 100%;
+}
+
+#galerieBis ul{
+	bottom: -1em;
+}
+#galerieBis li{
+	border: 1px solid transparent;
+	border-radius: 20px;
+	width: 15px;
+	height: 15px;
+	background-color: lightgray;
+}
+
+#galerieBis li.active{
+	background-color: #62bfe6;
+}
+
+.quote{
+	font-size: 1.25rem !important;
+}
+
+/* footer{
 	padding: 10px;
 }
 footer article{
 	margin: 10px 0;
+} */
+
+.footerPub img{
+	width: 100%;
+	max-height: 250px;
 }
+
+.footerPub li:nth-child(2n+0){
+	color: #893900;
+	opacity: 0.5;
+}
+
 footer i{
-	border-radius: 1px;
+	border-radius: 2px;
 	padding: 10px;
 	font-size: 38px;
 }
